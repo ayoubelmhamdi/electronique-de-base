@@ -5,7 +5,7 @@
 ```sh
 $ make
 ```
-    - using comand line only
+  - using comand line only
 
 ```sh
 $ latexmk -pdf  main.tex

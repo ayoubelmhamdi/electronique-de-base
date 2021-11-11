@@ -1,6 +1,6 @@
 
 # ELECTRONIQUE DE BASE
-  - build/compile latex file use
+  ## build/compile latex file use
    - using Makefile
 ```sh
 $ make

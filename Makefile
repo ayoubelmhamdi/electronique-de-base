@@ -15,10 +15,8 @@ RERUNBIB := "No file.*\.bbl|Citation.*undefined"
 latexmk:
 	-latexmk  -pdf $(DOC)
 
-purge:
-	-rm -f *.{aux,dvi,log,bbl,blg,brf,fls,toc,thm,out,fdb_latexmk}
+clean:
+	bash -c 'rm -rf *.{aux,dvi,log,bbl,blg,brf,fls,toc,thm,out,fdb_latexmk,pdf} build/'
 
-clean: purge
-	-rm -f $(DOC:.tex=.pdf)
 
 .PHONY: all purge clean
